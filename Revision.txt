@@ -1,0 +1,8 @@
+List
+
+2 Types of lists
+    a) Unordered list   <ul>
+    b) Ordered list     <ol>
+
+List`s element tag
+    <li> list item

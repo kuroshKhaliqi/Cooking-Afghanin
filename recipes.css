@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background-color: rgb(180, 0, 0);
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+}
+
+#brand-red {
+  color: red;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#brand-green {
+  color: green;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 10;
+}
+
+#main-recipe-img {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
+  background-image: url("kabob.jpg");
+  background-size: cover;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.layer {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+#title {
+  font-size: 50px;
+  color: rgb(0, 202, 0);
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+#sub-title {
+  font-size: 40px;
+  color: rgb(0, 202, 0);
+
+  z-index: 1;
+}
+
+#recipes-cards {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-card {
+  width: 20%;
+  height: 90%;
+  background-color: rgb(1, 102, 1);
+  margin: 2%;
+  margin-top: 3%;
+  border-radius: 30px;
+}
+
+img {
+  width: 100%;
+  height: 60%;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.recipe-btn {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(2, 46, 2);
+  padding: 5px 10px;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.recipe-name {
+  margin-bottom: 40px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#contact-img {
+  width: 100vw;
+  height: 20vh;
+}
+
+#contact-image {
+  width: 100%;
+  height: 100%;
+}
